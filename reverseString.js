@@ -32,7 +32,6 @@ const fun = (str) =>{
     }
     return reverseString
 }   
-
 console.log(fun("this is sethu"))
 
 //method 5

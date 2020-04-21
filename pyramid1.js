@@ -25,7 +25,7 @@ function Pyramid1() {
 // Pyramid1();
 
 //triangle pyramid
-
+    
 // 1
 // 12
 // 123
