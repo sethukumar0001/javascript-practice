@@ -43,7 +43,3 @@ console.log(revString("this is sethu"))
 
 // first ----split that specific string + reverse +join
  
-
-
-
-
