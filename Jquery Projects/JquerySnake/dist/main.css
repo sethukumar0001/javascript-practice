@@ -1,0 +1,126 @@
+html, body, div, ul, li, h1 {
+    border: none;
+    outline: 0;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    box-sizing: inherit;
+    background-color: transparent;
+    text-align: inherit;
+  }
+  
+  html {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: #000;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  body {
+    background-color: #0C141F;
+  }
+  
+  h1 {
+    font-size: 32px;
+    margin: 30px 0;
+    color: #FFE64D;
+  }
+  
+  .game {
+    border: 10px solid #6FC3DF;
+    display: inline-block;
+  }
+  
+  ul {
+    line-height: 0;
+  }
+  
+  li {
+    list-style: none;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #6FC3DF;
+  }
+  
+  .buttons {
+    position: relative;
+  }
+  
+  button {
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: bold;
+  }
+  
+  #new-game {
+    background-color: #FFE64D;
+    color: #0C141F;
+    padding: 5px 15px;
+    margin-top: 63px;
+  }
+  
+  .snake {
+    background-color: #E6FFFF;
+  }
+  
+  .apple {
+    background-color: #DF740C;
+  }
+  
+  .score {
+    margin-top: 10px;
+    color: aliceblue;
+  }
+  
+  strong {
+    font-weight: 700;
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .game-buttons {
+    position: relative;
+  }
+  
+  .game-buttons button {
+    width: 35px;
+    height: 35px;
+  }
+  
+  #up {
+    position: absolute;
+    top: -20px;
+    right: 50px;
+  }
+  
+  #left {
+    position: absolute;
+    top: 20px;
+    right: 85px;
+  }
+  
+  #right {
+    position: absolute;
+    top: 20px;
+    right: 15px;
+  }
+  
+  #down {
+    position: absolute;
+    top: 60px;
+    right: 50px;
+  }
+  
+  @media all and (min-width: 800px) {
+    li {
+      width: 20px;
+      height: 20px;
+    }
+  }
