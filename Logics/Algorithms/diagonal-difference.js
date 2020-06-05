@@ -32,7 +32,7 @@ function DiagonalDifference(arr){
     let diff = 0;
     let IndexOfLastElement = arr[0].length-1;
     arr.forEach((item,i)=>{
-        diff = diff+item[i]-item[IndexOfLastElement - 1]
+        diff = diff+item[i]-item[IndexOfLastElement - i]
         console.log(diff)
     })
     return Math.abs(diff)
@@ -40,6 +40,6 @@ function DiagonalDifference(arr){
 
 
 //iteration
-// diff = 0+11-2 = 9
-//diff  = 9+5-5 =9
-//diff  = 9-12-8 =-11 = Math.abs(-11) = 11
+// diff = 0+11-4 = 7
+//diff  = 7+5-5 =7
+//diff  = 7-12-10 =-15 = Math.abs(-15) = 15
