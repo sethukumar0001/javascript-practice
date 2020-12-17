@@ -49,7 +49,6 @@ class AppDragDropDemo extends Component {
                 </div>
             )
         })
-
         return (
             <div>
                 <h2>DRAG & DROP</h2>
